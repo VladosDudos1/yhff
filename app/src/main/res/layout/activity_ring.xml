@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/ic_ktits" />
+        <TextView
+            android:layout_marginRight="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="РАСПИСАНИЕ\nЗВОНКОВ"
+            android:textAlignment="textEnd"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="102dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:text="@string/text_th"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_marginTop="306dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:text="@string/text_four"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_marginBottom="28dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/text"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_two"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>
